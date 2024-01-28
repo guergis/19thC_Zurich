@@ -1,0 +1,143 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://guergis.github.io/19thC_Zurich/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Postkarten vom 19.Jh. Zürich",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "\n",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://4be46ccb-1af4-4c0d-8ad4-7d07f9fb66fe",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://de487d18-8d2b-4c5e-aa0d-12ae695cb516",
+      "@type" : "sc:Canvas",
+      "label" : "Erinnerung an Zürich",
+      "height" : 3255,
+      "width" : 3213,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b2c3d123-fc36-4864-8ec8-2cf20605c028",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://www.e-rara.ch/i3f/v21/14544027/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-rara.ch/i3f/v21/14544027",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "supports" : [ "baseUriRedirect", "cors", "jsonldMediaType", "mirroring", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "sizeAboveFull", "sizeByConfinedWh", "sizeByDistortedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh" ],
+              "qualities" : [ "default", "color", "gray", "bitonal" ],
+              "formats" : [ "jpg" ]
+            } ]
+          },
+          "height" : 3255,
+          "width" : 3213
+        },
+        "on" : "http://de487d18-8d2b-4c5e-aa0d-12ae695cb516"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3809f8f4-59f7-4445-a3d1-ccb6159c1d87",
+      "@type" : "sc:Canvas",
+      "label" : "Ansicht der Stadt Zürich",
+      "height" : 9224,
+      "width" : 10339,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6601abff-ac6f-4b1b-9e84-e09dcea6dfdb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://www.e-rara.ch/i3f/v21/11536273/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-rara.ch/i3f/v21/11536273",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "supports" : [ "baseUriRedirect", "cors", "jsonldMediaType", "mirroring", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "sizeAboveFull", "sizeByConfinedWh", "sizeByDistortedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh" ],
+              "qualities" : [ "default", "color", "gray", "bitonal" ],
+              "formats" : [ "jpg" ]
+            } ]
+          },
+          "height" : 9224,
+          "width" : 10339
+        },
+        "on" : "http://3809f8f4-59f7-4445-a3d1-ccb6159c1d87"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7d60be7c-496c-4290-9241-a27ebdb43c8e",
+      "@type" : "sc:Canvas",
+      "label" : "Souvenir de Zürich",
+      "height" : 3506,
+      "width" : 3321,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d9433787-f849-4423-a007-c534d44d852b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : " https://www.e-rara.ch/i3f/v21/14544031/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : " https://www.e-rara.ch/i3f/v21/14544031",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "supports" : [ "baseUriRedirect", "cors", "jsonldMediaType", "mirroring", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "sizeAboveFull", "sizeByConfinedWh", "sizeByDistortedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh" ],
+              "qualities" : [ "default", "color", "gray", "bitonal" ],
+              "formats" : [ "jpg" ]
+            } ]
+          },
+          "height" : 3506,
+          "width" : 3321
+        },
+        "on" : "http://7d60be7c-496c-4290-9241-a27ebdb43c8e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://12e496b4-702c-443b-b97d-82a2a5640eeb",
+      "@type" : "sc:Canvas",
+      "label" : "Karte Stadt Zürich",
+      "height" : 3938,
+      "width" : 3920,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0229545c-3403-4607-b733-44afd70b6483",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://www.e-rara.ch/i3f/v20/8644845/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-rara.ch/i3f/v20/8644845",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "supports" : [ "baseUriRedirect", "cors", "jsonldMediaType", "mirroring", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "sizeAboveFull", "sizeByConfinedWh", "sizeByDistortedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh" ],
+              "qualities" : [ "default", "color", "gray", "bitonal" ],
+              "formats" : [ "jpg" ]
+            } ]
+          },
+          "height" : 3938,
+          "width" : 3920
+        },
+        "on" : "http://12e496b4-702c-443b-b97d-82a2a5640eeb"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
