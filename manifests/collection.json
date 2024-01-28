@@ -1,0 +1,13 @@
+{
+  "id" : "https://guergis.github.io/19thC_Zurich/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in guergis/19thC_Zurich project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://guergis.github.io/19thC_Zurich/manifests/manifest.json",
+    "label" : "Postkarten vom 19.Jh. Zürich"
+  } ]
+}
